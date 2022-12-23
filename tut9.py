@@ -19,7 +19,7 @@ print(numbers)
 
 print(numbers[1:4])    # SLicing of list does not changes the orginal list.
 print(numbers[1:4:])   # udharpe default value 1 hai means no skip
-print(numbers[1:4:2])  # Ab 1 ka gap hoga kyuki last mein 2 hai
+print(numbers[1:4:2])  # Ab 1 ka gap hoga kyuki last mein 2 hai.
 
 
 
