@@ -21,7 +21,17 @@ print(numbers[1:4:2])  # Ab 1 ka gap hoga kyuki last mein 2 hai.
 # Negative Slicing
 print(numbers[::-1])  # This will just reverse the list items
 print(numbers[::-3])  # This will first reverse the list items and then from the reversed list it will take two two gaps and print the numbers
-#  It is advisable to use only -1 in negative slicing and nothing else 
+#  It is advisable to use only -1 in negative slicing and nothing else
+
+# Few features
+print(len(numbers))  # 'numbers' list ki length print karta hai yaani list ke andar kitne elments hai woh.
+print(max(numbers))  # 'numbers' list mein joh maximum hai woh print kardeta hai.
+print(min(numbers))  # 'numbers' list mein joh minimum hai woh print kardeta hai.
+
+# append()
+numbers.append(7)   # 'numbers' list mein last mein 7 jod deta hai
+print(numbers)
+
 
 
 
